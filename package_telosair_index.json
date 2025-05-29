@@ -9,9 +9,9 @@
         {
           "name": "telosair Boards",
           "architecture": "telosair",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "category": "Contributed",
-          "url": "https://github.com/Potsdam-Sensors/TAFirmware2/blob/1b098484c5edb472f41fbd1d88803d34fff41704/telosairBoards.zip",
+          "url": "https://github.com/Potsdam-Sensors/ArduinoPackage/raw/refs/heads/main/telosairBoards.zip",
           "archiveFileName": "telosairBoards.zip",
           "checksum": "SHA-256:c3bfe7f81bc59fc01b4f86072870cdb8928b13b01ed6f81dfd778f2203689eb7",
           "size": "1310072"
