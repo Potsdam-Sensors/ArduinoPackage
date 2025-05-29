@@ -1,0 +1,50 @@
+{
+  "packages": [
+    {
+      "name": "telosair",
+      "maintainer": "telosair",
+      "websiteURL": "https://telosair.com",
+      "email": "insights@telosair.com",
+      "platforms": [
+        {
+          "name": "telosair Boards",
+          "architecture": "telosair",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/Potsdam-Sensors/TAFirmware2/blob/1b098484c5edb472f41fbd1d88803d34fff41704/telosairBoards.zip",
+          "archiveFileName": "telosairBoards.zip",
+          "checksum": "SHA-256:c3bfe7f81bc59fc01b4f86072870cdb8928b13b01ed6f81dfd778f2203689eb7",
+          "size": "1310072"
+        }
+        ],  
+        "toolsDependencies": [
+                   {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+			] 
+
+    }   
+]
+}
