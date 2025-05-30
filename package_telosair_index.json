@@ -9,7 +9,7 @@
         {
           "name": "telosair Boards",
           "architecture": "telosair",
-          "version": "1.0.1",
+          "version": "1.0.2",
           "category": "Contributed",
           "url": "https://github.com/Potsdam-Sensors/ArduinoPackage/raw/refs/heads/main/telosairBoards.zip",
           "archiveFileName": "telosairBoards.zip",
