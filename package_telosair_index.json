@@ -9,12 +9,12 @@
         {
           "name": "telosair Boards",
           "architecture": "telosair",
-          "version": "1.0.2",
+          "version": "1.0.3,
           "category": "Contributed",
           "url": "https://github.com/Potsdam-Sensors/ArduinoPackage/raw/refs/heads/main/telosairBoards.zip",
           "archiveFileName": "telosairBoards.zip",
-          "checksum": "SHA-256:c3bfe7f81bc59fc01b4f86072870cdb8928b13b01ed6f81dfd778f2203689eb7",
-          "size": "1310072"
+          "checksum": "SHA-256:9ab12eb9689956b33086ef74eb3ea503af9f3a384c7ec54f9206e2a91b5dfbd8",
+          "size": "1293999"
         }
         ],  
         "toolsDependencies": [

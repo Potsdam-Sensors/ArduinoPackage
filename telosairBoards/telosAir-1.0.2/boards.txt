@@ -1,0 +1,44 @@
+# Copyright (c) 2014-2015 Arduino LLC.  All right reserved.
+#
+# This library is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+#
+# This library is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# See the GNU Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public
+# License along with this library; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+telosair.name=telosair duet
+telosair.vid.0=0x1B4F
+telosair.pid.0=0x214F
+telosair.vid.1=0x1B4F
+telosair.pid.1=0x215F
+telosair.upload.tool=bossac
+telosair.upload.protocol=sam-ba
+telosair.upload.maximum_size=262144
+telosair.upload.use_1200bps_touch=true
+telosair.upload.wait_for_upload_port=true
+telosair.upload.native_usb=true
+telosair.build.mcu=cortex-m0plus
+telosair.build.f_cpu=48000000L
+telosair.build.usb_product="duet"
+telosair.build.usb_manufacturer="telosair"
+telosair.build.board=SAMD_ZERO
+telosair.build.core=arduino
+telosair.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+telosair.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+telosair.build.openocdscript=openocd_scripts/arduino_zero.cfg
+telosair.build.variant=mk4
+telosair.build.variant_system_lib=
+telosair.build.extra_combine_flags=
+telosair.build.vid=0x1B4F
+telosair.build.pid=0x214F
+telosair.bootloader.tool=openocd
+telosair.bootloader.file=zero/telosair_duet.bin
+
