@@ -13,8 +13,8 @@
           "category": "Contributed",
           "url": "https://github.com/Potsdam-Sensors/ArduinoPackage/raw/refs/heads/main/telosairDuets.zip",
           "archiveFileName": "telosairDuets.zip",
-          "checksum": "SHA-256:bfe2213135c682e63638419b189e196c44873fdf5f83288f88b81e3bca1975c3",
-          "size": "1333767",
+          "checksum": "SHA-256:482b2957d029efeca759e3a8b51fc54e46111c38c926227b8c3bbc8cdeff1d0a",
+          "size": "1333769",
           "boards": [
             { "name": "TelosAir Duet Mk4"},{ "name": "TelosAir Duet Mk3"},{ "name": "TelosAir Duet Mk1"}
           ],
