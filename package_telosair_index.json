@@ -8,7 +8,7 @@
       "platforms": [
         {
           "name": "telosair Boards",
-          "architecture": "telosair",
+          "architecture": "samd",
           "version": "1.0.7",
           "category": "Contributed",
           "url": "https://github.com/Potsdam-Sensors/ArduinoPackage/raw/refs/heads/main/telosairBoards.zip",
