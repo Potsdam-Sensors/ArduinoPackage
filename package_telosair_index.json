@@ -17,11 +17,9 @@
           "size": "1293999",
           "boards": [
             { "name": "telosair Duet" }
-          ]
-        }
-        ],  
-        "toolsDependencies": [
-                   {
+          ],
+          "toolsDependencies": [
+            {
               "packager": "arduino",
               "name": "arm-none-eabi-gcc",
               "version": "4.8.3-2014q1"
@@ -46,7 +44,10 @@
               "name": "CMSIS-Atmel",
               "version": "1.2.0"
             }
-			],
+			    
+          ]
+        }
+      ],  
       "tools": [
         {
           "version": "1.20.0-26-gb404fb9-2", 
