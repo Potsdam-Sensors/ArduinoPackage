@@ -112,23 +112,17 @@ static const uint8_t ATN = PIN_ATN;
 /*
  * Serial interfaces
  */
-// Serial (Extra Uart)
-#define PIN_SERIAL_RX       (10ul)
-#define PIN_SERIAL_TX       (11ul)
-#define PAD_SERIAL_RX       (SERCOM_RX_PAD_2)
-#define PAD_SERIAL_TX       (UART_TX_PAD_0)
+// Serial (EDBG)
+#define PIN_SERIAL_RX       (31ul)
+#define PIN_SERIAL_TX       (30ul)
+#define PAD_SERIAL_TX       (UART_TX_PAD_2)
+#define PAD_SERIAL_RX       (SERCOM_RX_PAD_3)
 
-// Serial1 (PT1)
+// Serial1
 #define PIN_SERIAL1_RX       (0ul)
 #define PIN_SERIAL1_TX       (1ul)
-#define PAD_SERIAL1_RX       (SERCOM_RX_PAD_3)
 #define PAD_SERIAL1_TX       (UART_TX_PAD_2)
-
-// Serial2 (PT2)
-#define PIN_SERIAL2_RX       (31ul)
-#define PIN_SERIAL2_TX       (30ul)
-#define PAD_SERIAL2_RX       (SERCOM_RX_PAD_3)
-#define PAD_SERIAL2_TX       (UART_TX_PAD_2)
+#define PAD_SERIAL1_RX       (SERCOM_RX_PAD_3)
 
 /*
  * SPI Interfaces
@@ -201,7 +195,6 @@ extern SERCOM sercom5;
 
 extern Uart Serial;
 extern Uart Serial1;
-extern Uart Serial2;
 
 #endif
 
@@ -222,9 +215,9 @@ extern Uart Serial2;
 //                            pins are NOT connected to anything by default.
 #define SERIAL_PORT_USBVIRTUAL      SerialUSB
 #define SERIAL_PORT_MONITOR         SerialUSB
-
-#define SERIAL_PORT_HARDWARE        Serial
-#define SERIAL_PORT_HARDWARE_OPEN   Serial
+// Serial has no physical pins broken out, so it's not listed as HARDWARE port
+#define SERIAL_PORT_HARDWARE        Serial1
+#define SERIAL_PORT_HARDWARE_OPEN   Serial1
 
 #endif /* _VARIANT_ARDUINO_ZERO_ */
 

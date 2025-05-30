@@ -207,23 +207,15 @@ SERCOM sercom3( SERCOM3 ) ;
 SERCOM sercom4( SERCOM4 ) ;
 SERCOM sercom5( SERCOM5 ) ;
 
-// Serial1 can be sercom0 or sercom2, just make sure to change SERCOM_Handler and pinPeripherals
-Uart Serial( &sercom1, PIN_SERIAL_RX, PIN_SERIAL_TX, PAD_SERIAL_RX, PAD_SERIAL_TX);
-Uart Serial1( &sercom0, PIN_SERIAL1_RX, PIN_SERIAL1_TX, PAD_SERIAL1_RX, PAD_SERIAL1_TX);
-Uart Serial2( &sercom5, PIN_SERIAL2_RX, PIN_SERIAL2_TX, PAD_SERIAL2_RX, PAD_SERIAL2_TX);
-
-void SERCOM1_Handler()
-{
-  Serial.IrqHandler();
-}
-
-void SERCOM0_Handler()
+Uart Serial1( &sercom2, PIN_SERIAL1_RX, PIN_SERIAL1_TX, PAD_SERIAL1_RX, PAD_SERIAL1_TX ) ;
+Uart Serial( &sercom5, PIN_SERIAL_RX, PIN_SERIAL_TX, PAD_SERIAL_RX, PAD_SERIAL_TX ) ;
+void SERCOM2_Handler()
 {
   Serial1.IrqHandler();
 }
 
 void SERCOM5_Handler()
 {
-  Serial2.IrqHandler();
+  Serial.IrqHandler();
 }
 

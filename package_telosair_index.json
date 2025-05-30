@@ -1,22 +1,22 @@
 {
   "packages": [
     {
-      "name": "telosair",
-      "maintainer": "telosair",
+      "name": "TelosAir",
+      "maintainer": "TelosAir",
       "websiteURL": "https://telosair.com",
       "email": "insights@telosair.com",
       "platforms": [
         {
-          "name": "telosair Boards",
+          "name": "TelosAir Boards",
           "architecture": "samd",
-          "version": "1.0.9",
+          "version": "1.0.10",
           "category": "Contributed",
           "url": "https://github.com/Potsdam-Sensors/ArduinoPackage/raw/refs/heads/main/telosairBoards.zip",
           "archiveFileName": "telosairBoards.zip",
-          "checksum": "SHA-256:3a784dd36175a283b7d6d97dae8258c62c3829264fb51a91172c5591ecf566c1",
-          "size": "1293999",
+          "checksum": "SHA-256:71b4d19f2d48a9be17fab0945f090c693854f1c4a910b8cf2c6d71c84b6a3d3b",
+          "size": "1293640",
           "boards": [
-            { "name": "telosair Duet" }
+            { "name": "TelosAir Duet Mk4"},{ "name": "TelosAir Duet Mk3"}
           ],
           "toolsDependencies": [
             {
