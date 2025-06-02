@@ -44,7 +44,7 @@ d_mk1.build.pid=0x214F
 d_mk1.bootloader.tool=openocd
 d_mk1.bootloader.file=zero/telosair_duet_mk1.bin
 ```
-3. Next update the follwing bolded areas with the new variant name. I've provided an example for a hypotheical mk5 with some additional comments/observations in italics.
+3. Next update the following bolded areas with the new variant name. I've provided an example for a hypothetical mk5 with some additional comments/observations in italics.
 
 **d_mk5**.name=**TelosAir Duet Mk5** <U>*The name that shows up in Arduino IDE*</u><br>
 <u>*I don't know what the id's are for, but duplicate id's don't seem to matter*</u><br>
@@ -73,7 +73,7 @@ d_mk1.bootloader.file=zero/telosair_duet_mk1.bin
 **d_mk5**.build.vid=0x1B4F<br>
 **d_mk5**.build.pid=0x214F<br>
 **d_mk5**.bootloader.tool=openocd<br>
-**d_mk5**.bootloader.file=zero/telosair_duet_**mk5**.bin <u>*This a copy of the sparkfun bootloader and, I belive hasn't actually chanage between duet marks.*</u><br>
+**d_mk5**.bootloader.file=zero/telosair_duet_**mk5**.bin <u>*This a copy of the sparkfun bootloader and, I believe hasn't actually changed between duet marks.*</u><br>
 
 ### Update Bootloader (Optional)
 1. Navigate to ```./ArduinoPackage/telosairBoards/telosairDuets/bootloaders/zero```
@@ -101,7 +101,7 @@ d_mk1.bootloader.file=zero/telosair_duet_mk1.bin
 
 ### Update ```package_telosair_index.json```
 Note: This filename must be in the following format ```package_name_index.json```.<br>
-Note II: Checksum and size are imporant, arduino will complain if they are not correct/updated.
+Note II: Checksum and size are important, arduino will complain if they are not correct/updated.
 
 1. Navigate to ```./ArduinoPackage/package_telosair_index.json```
 2. Place the newly recorded checksum and size in their respective .json entries.<br> ``` "checksum": "SHA-256:bfe2213135c682e63638419b189e196c44873fdf5f83288f88b81e3bca1975c3",```<br>
@@ -114,9 +114,9 @@ Note II: Checksum and size are imporant, arduino will complain if they are not c
 5. Push these new changes to the repo via ```git push```
 
 ## Clearing Arduino Cache
-Sometimes a new board manager verision is slow to be picked up by Arduino IDE. It can be forced by perfoming the following steps.
+Sometimes a new board manager version is slow to be picked up by Arduino IDE. It can be forced by performing the following steps.
 
-1. Naviate to the ```/.Arduino15``` folder or respective version. Note: On linux this folder is under ```/home``` but will depend on your install and OS.
+1. Navigate to the ```/.Arduino15``` folder or respective version. Note: On Linux this folder is under ```/home``` but will depend on your install and OS.
 2. Delete ```package_telosair_index.json```
 3. Delete ```package_index.json``` and ```package_index.sig```
 4. Delete ```.arduino15/staging/packages/telosairDuets.zip```
