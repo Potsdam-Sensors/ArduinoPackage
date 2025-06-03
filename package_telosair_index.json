@@ -9,12 +9,12 @@
         {
           "name": "TelosAir Boards",
           "architecture": "samd",
-          "version": "1.0.14",
+          "version": "1.0.15",
           "category": "Contributed",
           "url": "https://github.com/Potsdam-Sensors/ArduinoPackage/raw/refs/heads/main/telosairDuets.zip",
           "archiveFileName": "telosairDuets.zip",
-          "checksum": "SHA-256:43d3c44b330c6971acff55fdd90e0d04c8a86d67647be149e1fe46482acc6049",
-          "size": "1333866",
+          "checksum": "SHA-256:9ad4bccf681b8a351e25c618f0447164580f0321e9cbf6d8f4752ab6c16cfbf6",
+          "size": "1333948",
           "boards": [
             { "name": "TelosAir Duet Mk4"},{ "name": "TelosAir Duet Mk3"},{ "name": "TelosAir Duet Mk1"}
           ],
