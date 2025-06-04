@@ -33,7 +33,7 @@ d_mk4.build.usb_product="Duet Mk4"
 d_mk4.build.usb_manufacturer="TelosAir"
 d_mk4.build.board=SAMD_ZERO
 d_mk4.build.core=arduino
-d_mk4.build.extra_flags=-D__SAMD21G18A__ -DMK=4 {build.usb_flags}
+d_mk4.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
 d_mk4.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
 d_mk4.build.openocdscript=openocd_scripts/arduino_zero.cfg
 d_mk4.build.variant=mk4
@@ -66,7 +66,7 @@ d_mk3.build.usb_product="Duet Mk3"
 d_mk3.build.usb_manufacturer="TelosAir"
 d_mk3.build.board=SAMD_ZERO
 d_mk3.build.core=arduino
-d_mk3.build.extra_flags=-D__SAMD21G18A__ -DMK=3 {build.usb_flags}
+d_mk3.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
 d_mk3.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
 d_mk3.build.openocdscript=openocd_scripts/arduino_zero.cfg
 d_mk3.build.variant=mk3
@@ -94,7 +94,7 @@ d_mk2.build.usb_product="Duet Mk2"
 d_mk2.build.usb_manufacturer="TelosAir"
 d_mk2.build.board=SAMD_ZERO
 d_mk2.build.core=arduino
-d_mk2.build.extra_flags=-D__SAMD21G18A__ -DMK=2 {build.usb_flags}
+d_mk2.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
 d_mk2.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
 d_mk2.build.openocdscript=openocd_scripts/arduino_zero.cfg
 d_mk2.build.variant=mk2
@@ -103,7 +103,7 @@ d_mk2.build.extra_combine_flags=
 d_mk2.build.vid=0x1B4F
 d_mk2.build.pid=0x214F
 d_mk2.bootloader.tool=openocd
-d_mk2.bootloader.file=zero/telosair_duet_mk2.bin
+d_mk2.bootloader.file=zero/telosair_duet_mk1.bin
 
 d_mk1.name=TelosAir Duet Mk1
 d_mk1.vid.0=0x1B4F
@@ -122,7 +122,7 @@ d_mk1.build.usb_product="Duet Mk1"
 d_mk1.build.usb_manufacturer="TelosAir"
 d_mk1.build.board=SAMD_ZERO
 d_mk1.build.core=arduino
-d_mk1.build.extra_flags=-D__SAMD21G18A__ -DMK=1 {build.usb_flags}
+d_mk1.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
 d_mk1.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
 d_mk1.build.openocdscript=openocd_scripts/arduino_zero.cfg
 d_mk1.build.variant=mk1
