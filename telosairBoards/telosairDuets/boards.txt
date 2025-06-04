@@ -33,7 +33,7 @@ d_mk4.build.usb_product="Duet Mk4"
 d_mk4.build.usb_manufacturer="TelosAir"
 d_mk4.build.board=SAMD_ZERO
 d_mk4.build.core=arduino
-d_mk4.build.extra_flags=-D__SAMD21G18A__ -DMK=4 {build.usb_flags}
+d_mk4.build.extra_flags=-D__SAMD21G18A__ -DMK=4 -DHAS_SD=1 {build.usb_flags}
 d_mk4.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
 d_mk4.build.openocdscript=openocd_scripts/arduino_zero.cfg
 d_mk4.build.variant=mk4
