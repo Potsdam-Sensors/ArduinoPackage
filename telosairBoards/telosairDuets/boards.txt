@@ -43,10 +43,10 @@ d_mk4.build.vid=0x1B4F
 d_mk4.build.pid=0x214F
 d_mk4.bootloader.tool=openocd
 d_mk4.bootloader.file=zero/telosair_duet_mk4.bin
-d_mk4.menu.separator.colon=Colon (:::)
 d_mk4.menu.separator.space=Space (SPACE)
-d_mk4.menu.separator.colon.compiler.cpp.extra_flags=-DPRINT_SEPARATOR=":::"
+d_mk4.menu.separator.comma=Comma (,)
 d_mk4.menu.separator.space.compiler.cpp.extra_flags=
+d_mk4.menu.separator.comma.compiler.cpp.extra_flags=-DPRINT_SEPARATOR=","
 
 
 d_mk3.name=TelosAir Duet Mk3
